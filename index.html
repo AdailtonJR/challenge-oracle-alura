@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Challenge 1</title>
+    </head>
+    <body>
+        <div class="conteiner">
+            <div class="logo">
+                <img class="logoimg" src="img/logo.png" alt="imglogo">
+            </div>
+            <di class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Digite seu texto aqui">
+            </di>
+            <div class="right">
+                <img src="img/boneco.png" id="imgdir">
+                <h1 id="texto">Nenhuma mensagem foi encontrada</h1>
+                <textarea id="texto2" name="nome" rows="8" cols="80">Digite o texto que deseja encriptar ou desencriptar.</textarea>
+                <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+            </div>
+            <div class="left-button">
+                <p>Apenas letras minusculas e sem acentos</p>
+                <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <footer>
+            <p  class="copyright">&copy; Copyright Adailton Junior-2023</p>
+        </footer>    
+    </body>
+</html>
